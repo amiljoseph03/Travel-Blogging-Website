@@ -371,10 +371,32 @@ section #icons {
    border: none;         
   box-shadow: none;     
   background: transparent; 
+  text-align: center;
+  align-items: center;
+  color: #007bff;
+  font-size:120%;
 }
 
 #latest-blogg img {
   width: 100%;
-  height: 320px;       
+  height: 520px;       
   /* border-radius: 8px;     */
 }
+
+ .custom-btn {
+  background-color: #ff6600;   /* nice orange */
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 25px;        /* rounded edges */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+ .custom-btn:hover {
+  background-color: #e65c00;  /* darker orange on hover */
+  transform: scale(1.05);     /* slight zoom */
+}
+
