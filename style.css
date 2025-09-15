@@ -400,3 +400,33 @@ section #icons {
   transform: scale(1.05);     /* slight zoom */
 }
 
+/* ...........................  */
+
+
+#video .custom-img {
+  max-height: 550px;   
+  width: 100%;         
+  object-fit: cover;   
+}
+
+ #video .oval-img {
+  border-radius: 0%;  
+}
+#video .about-text h2 {
+  font-size: 3.5rem;   
+  font-weight: 700;    
+}
+
+#video .about-text p {
+  font-size: 1.25rem;  
+  line-height: 1.7;   
+}
+/* ...................................  */
+
+#video, #icons, #part3{
+   margin-top: 5%;
+}
+
+.title {
+  font-weight: bold;
+}
