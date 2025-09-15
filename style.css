@@ -180,15 +180,37 @@ section #home{
 }
 /* /* ....  */
 section #icons {
+    margin-top: 60%;
   text-align: center; 
   margin: 20px 0;     
 }
 
 #icons img {
-  max-width: 60%;     
+
+  max-width: 75%;     
   height: auto;     
   display: block;     
   margin: 0 auto;     
 }
 
+/* ...........................  */
 
+
+.custom-img {
+  max-height: 550px;   
+  width: 100%;         
+  object-fit: cover;   
+}
+
+.oval-img {
+  border-radius: 35%;  
+}
+.about-text h2 {
+  font-size: 3.5rem;   
+  font-weight: 700;    
+}
+
+.about-text p {
+  font-size: 1.25rem;  
+  line-height: 1.7;   
+}
