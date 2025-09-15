@@ -254,11 +254,9 @@ section #icons {
 
 #part5 .card {
     background: #fff;
-    /* border-radius: 10px; */
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
-    /* overflow: hidden; */
+   
     width: 350px;
-    /* transition: transform 0.6s, background 0.6s; */
+
     position: relative;
 }
 
@@ -284,4 +282,65 @@ section #icons {
 #part5 .card p {
     font-size: 1rem;
     color: #555;
+}
+/* ..........travelmore ....  */
+
+
+#travel-more .container {
+  display: flex;
+  gap: 15px;             
+  justify-content: flex-start;
+  flex-wrap: nowrap;      
+  /* overflow-x: auto;      
+  padding-bottom: 10px;    */
+}
+
+
+
+#travel-more .card {
+  flex: 1;             
+  min-width: 250px;     
+  position: relative;
+}
+#travel-more img{
+  /* display: block;
+  width: 100%;
+  height: auto; */
+
+   width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+#travel-more .info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-color: rgba(0,0,0,.3);
+  display: flex;                
+  justify-content: center;     
+  align-items: center;          
+  flex-direction: column;        
+  
+  text-align: center;
+  -webkit-transition:.5s ease-out;
+}
+#travel-more .info h1{
+  color: white;
+  font-weight: 200px;
+  /* margin-top: 30%; */
+}
+#travel-more .info p{
+  color: #fff;
+  font-size: 50%;
+  text-align: center;
+  /* margin-top: 50%; */
+}
+#travel-more .info:hover{
+/*   -webkit-transition: 500ms; */
+  margin-top: 0;
+  opacity: 1;  
 }
