@@ -40,6 +40,11 @@ header{
     text-decoration: none;
 }
 
+.navbar img{
+ height: 100px;
+ height: 100px;
+}
+
 
 ul li{
     list-style: none;
@@ -337,9 +342,9 @@ section #icons {
   font-weight: 200px;
   /* margin-top: 30%; */
 }
-#travel-more .info p{
+#travel-more p{
   color: #fff;
-  font-size: 50%;
+  font-size: 80%;
   text-align: center;
   /* margin-top: 50%; */
 }
