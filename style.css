@@ -436,3 +436,13 @@ section #icons {
 .title {
   font-weight: bold;
 }
+
+
+/* ...  */
+html {
+  scroll-padding-top: 100px; /* global safeguard */
+}
+
+header.header {
+  scroll-margin-top: 120px;
+}
