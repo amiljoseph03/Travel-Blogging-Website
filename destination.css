@@ -17,7 +17,7 @@ header{
     position: sticky;
     display: flex;
     align-items: center;
-    height: 150px;
+    height: 100px;
     padding: 5px;
     /* justify-content: space-between; */
     margin: auto;
@@ -26,7 +26,7 @@ header{
     /* margin-left: 35px; */
     background-color: white;
     font-size: 20px;
-   gap: 30px;
+   gap: 20px;
 }
 
 .navbar li:hover {
@@ -41,8 +41,9 @@ header{
 }
 
 .navbar img{
- height: 100px;
- height: 100px;
+ height: 90%;
+ /* height: 100px; */
+
 }
 
 
@@ -53,7 +54,7 @@ ul li{
     margin: 10px;
     /* margin-right: 95px;  */
     justify-content: space-around;
-    margin: 0 35px; 
+    margin: 0 15px; 
 
 }
 /* Dropdown menu */
